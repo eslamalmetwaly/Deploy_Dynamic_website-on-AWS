@@ -39,12 +39,9 @@ This repository contains a complete infrastructure and deployment setup for a mo
 ## 📁 Project Structure
 
 ├── Compute/
-│ ├── VPC.tf
-│ ├── ALB.tf
-│ ├── EC2.tf
-│ └── Scale/
-│ ├── AMI.tf
-│ ├── AutoScale.tf
+│   ├── VPC.tf
+│   ├── ALB.tf
+│   └── ...
 ├── DEPLOY.md
 ├── README.md
 └── architecture.png
@@ -83,7 +80,7 @@ This repository contains a complete infrastructure and deployment setup for a mo
 ---
 
 ## 👨‍💻 About the Author
-Cloud & DevOps Enthusiast ☁
+Cloud Enthusiast ☁
 [Eslam Almetwaly](https://github.com/eslamalmetwaly)
 
 ---
