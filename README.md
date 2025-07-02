@@ -34,32 +34,28 @@ This project provides a full Infrastructure as Code (IaC) setup using **Terrafor
 ├── README.md
 └── architecture.png
 
-📘 Deployment Instructions
-For full steps to build and deploy the Angular frontend, Node.js backend, configure NGINX, and Terraform setup:
+📘 **Deployment Instructions**  
+For full steps to build and deploy the Angular frontend, Node.js backend, configure NGINX, and Terraform setup:  
 
-👉 [Click here to open `DEPLOY.md`](./DEPLOY.md)
+👉 [Click here to open `DEPLOY.md`](./DEPLOY.md)  
 
-🔐 Security Highlights
-Separate Security Groups for ALB and EC2
+🔐 **Security Highlights**  
+- Separate Security Groups for ALB and EC2  
+- Inbound rules limited to HTTP (80) and app port (3000)  
+- Infrastructure provisioned across multiple AZs for high availability  
 
-Inbound rules limited to HTTP (80) and app port (3000)
+🌍 **Access**  
+Once deployed:  
+- **Frontend**: http://<your-ec2-ip>  
+- **APIs**: Accessed via `/api/...` and routed to backend via NGINX  
+- **MongoDB Atlas**: Cloud-hosted & externally connected  
 
-Infrastructure provisioned across multiple AZs for high availability
+---
 
-🌍 Access
-Once deployed:
-
-Frontend: http://<your-ec2-ip>
-
-APIs: Accessed via /api/... and routed to backend via NGINX
-
-MongoDB Atlas: Cloud-hosted & externally connected
-
-## 👨‍💻 Author
-
+### 👨‍💻 **Author**  
 **Eslam Almetwaly**  
 Cloud Enthusiast ☁  
-GitHub: [Eslam Almetwaly](https://github.com/eslamalmetwaly)
+🔗 [GitHub Profile](https://github.com/eslamalmetwaly)  
 
 
 📝 Feedback
