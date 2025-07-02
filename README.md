@@ -52,10 +52,11 @@ Once deployed:
 
 ---
 
-### 👨‍💻 **Author**  
+## 👨‍💻 Author
+
 **Eslam Almetwaly**  
-Cloud Enthusiast ☁  
-🔗 [GitHub Profile](https://github.com/eslamalmetwaly)  
+Cloud | DevOps | Security Enthusiast ☁  
+🔗 [Eslam Almetwaly](https://github.com/eslamalmetwaly)
 
 
 📝 Feedback
