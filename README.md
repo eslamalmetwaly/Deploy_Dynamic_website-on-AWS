@@ -37,7 +37,7 @@ This project provides a full Infrastructure as Code (IaC) setup using **Terrafor
 📘 Deployment Instructions
 For full steps to build and deploy the Angular frontend, Node.js backend, configure NGINX, and Terraform setup:
 
-📄 Check DEPLOY.md
+📄 Check [`DEPLOY.md`](./DEPLOY.md)
 
 🔐 Security Highlights
 Separate Security Groups for ALB and EC2
@@ -58,7 +58,7 @@ MongoDB Atlas: Cloud-hosted & externally connected
 👨‍💻 Author
 Eslam Almetwaly
 Cloud Enthusiast ☁
-GitHub: @eslamalmetwaly
+GitHub: [Eslam Almetwaly](https://github.com/eslamalmetwaly)
 
 📝 Feedback
 Open issues or pull requests if you want to contribute or suggest improvements.
